@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="258" y1="83" x2="564" y2="368" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="base" x1="245" y1="364" x2="576" y2="404" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#777e85"/>
+      <stop offset=".5" stop-color="#171a1e"/>
+      <stop offset="1" stop-color="#555b60"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="220" y1="218" x2="280" y2="397" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252a30"/>
+      <stop offset="1" stop-color="#090b0d"/>
+    </linearGradient>
+    <filter id="shadow" x="170" y="52" width="460" height="385" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="12"/>
+      <feGaussianBlur stdDeviation="13"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix values="0 0 0 0 0.14 0 0 0 0 0.19 0 0 0 0 0.17 0 0 0 0.18 0"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+    <filter id="floatShadow" x="472" y="97" width="236" height="180" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+  </defs>
+  <circle cx="293" cy="82" r="52" fill="#FFD66F" opacity=".8"/>
+  <circle cx="634" cy="394" r="48" fill="#83E6C9" opacity=".7"/>
+  <circle cx="271" cy="50" r="2" fill="#fff"/>
+  <circle cx="258" cy="66" r="1.5" fill="#fff"/>
+  <circle cx="306" cy="43" r="1.5" fill="#fff"/>
+  <circle cx="617" cy="414" r="2" fill="#fff"/>
+  <circle cx="646" cy="382" r="1.5" fill="#fff"/>
+  <g filter="url(#shadow)">
+    <rect x="278" y="65" width="338" height="262" rx="17" fill="#1C2024"/>
+    <rect x="288" y="75" width="318" height="240" rx="9" fill="url(#screen)"/>
+    <path d="M288 84a9 9 0 0 1 9-9h300a9 9 0 0 1 9 9v14H288V84Z" fill="#F2F4F6"/>
+    <circle cx="299" cy="86" r="2" fill="#D6DADF"/>
+    <circle cx="307" cy="86" r="2" fill="#D6DADF"/>
+    <circle cx="315" cy="86" r="2" fill="#D6DADF"/>
+    <rect x="300" y="111" width="61" height="187" rx="5" fill="#FBFCFD"/>
+    <circle cx="311" cy="124" r="4" fill="#31CDA4"/>
+    <rect x="321" y="121" width="27" height="4" rx="2" fill="#D2D7DB"/>
+    <rect x="309" y="139" width="41" height="5" rx="2.5" fill="#E9ECEF"/>
+    <rect x="309" y="151" width="34" height="5" rx="2.5" fill="#E9ECEF"/>
+    <rect x="309" y="163" width="39" height="5" rx="2.5" fill="#E9ECEF"/>
+    <rect x="309" y="177" width="43" height="28" rx="5" fill="#F1EAFE"/>
+    <rect x="315" y="183" width="12" height="12" rx="3" fill="#9463E9"/>
+    <rect x="331" y="185" width="15" height="3" rx="1.5" fill="#C5C9CE"/>
+    <rect x="331" y="191" width="11" height="3" rx="1.5" fill="#E1E4E7"/>
+    <rect x="309" y="212" width="43" height="28" rx="5" fill="#FFF3DF"/>
+    <rect x="315" y="218" width="12" height="12" rx="3" fill="#FFB842"/>
+    <rect x="331" y="220" width="15" height="3" rx="1.5" fill="#C5C9CE"/>
+    <rect x="331" y="226" width="11" height="3" rx="1.5" fill="#E1E4E7"/>
+    <rect x="309" y="247" width="43" height="28" rx="5" fill="#FFE9E9"/>
+    <rect x="315" y="253" width="12" height="12" rx="3" fill="#FF6767"/>
+    <rect x="331" y="255" width="15" height="3" rx="1.5" fill="#C5C9CE"/>
+    <rect x="331" y="261" width="11" height="3" rx="1.5" fill="#E1E4E7"/>
+    <text x="376" y="121" fill="#252A30" font-family="Arial,sans-serif" font-size="9" font-weight="700">My Folders</text>
+    <text x="376" y="132" fill="#ADB3B8" font-family="Arial,sans-serif" font-size="5">Your files at a glance</text>
+    <rect x="375" y="142" width="65" height="55" rx="7" fill="#fff" stroke="#EDF0F2"/>
+    <rect x="382" y="149" width="17" height="17" rx="5" fill="#F1E7FF"/>
+    <path d="M386 154h9v7h-9z" fill="#9562E9"/>
+    <text x="382" y="176" fill="#333940" font-family="Arial,sans-serif" font-size="6" font-weight="700">Design</text>
+    <text x="382" y="186" fill="#ABB1B6" font-family="Arial,sans-serif" font-size="5">252 files</text>
+    <rect x="446" y="142" width="65" height="55" rx="7" fill="#fff" stroke="#EDF0F2"/>
+    <rect x="453" y="149" width="17" height="17" rx="5" fill="#FFF1DA"/>
+    <path d="M456 154h11v9h-11z" fill="#FFB83F"/>
+    <text x="453" y="176" fill="#333940" font-family="Arial,sans-serif" font-size="6" font-weight="700">Images</text>
+    <text x="453" y="186" fill="#ABB1B6" font-family="Arial,sans-serif" font-size="5">769 files</text>
+    <rect x="517" y="142" width="65" height="55" rx="7" fill="#fff" stroke="#EDF0F2"/>
+    <rect x="524" y="149" width="17" height="17" rx="5" fill="#FFE7E7"/>
+    <path d="M527 154h11v9h-11z" fill="#FF6D69"/>
+    <text x="524" y="176" fill="#333940" font-family="Arial,sans-serif" font-size="6" font-weight="700">Business</text>
+    <text x="524" y="186" fill="#ABB1B6" font-family="Arial,sans-serif" font-size="5">435 files</text>
+    <text x="378" y="214" fill="#2C3338" font-family="Arial,sans-serif" font-size="7" font-weight="700">Activity report</text>
+    <rect x="374" y="221" width="208" height="71" rx="7" fill="#fff" stroke="#EDF0F2"/>
+    <path d="M389 277V260M406 277V250M423 277V266M440 277V241M457 277V254M474 277V233M491 277V256M508 277V245M525 277V229M542 277V252M559 277V237" stroke="#8B6CE5" stroke-width="5" stroke-linecap="round"/>
+    <path d="M396 277V267M413 277V261M430 277V270M447 277V261M464 277V266M481 277V250M498 277V268M515 277V260M532 277V253M549 277V266M566 277V257" stroke="#37D2AA" stroke-width="5" stroke-linecap="round"/>
+    <path d="M383 281h183" stroke="#EDF0F2"/>
+    <text x="379" y="305" fill="#31373B" font-family="Arial,sans-serif" font-size="6" font-weight="700">My Favorite</text>
+    <rect x="374" y="311" width="208" height="1" fill="#E7EAED"/>
+    <path d="M257 327h379l-24 45H280l-23-45Z" fill="url(#base)"/>
+    <path d="M281 368h331l12 12H269l12-12Z" fill="#C7CDD1"/>
+    <path d="M423 330h62l12 8h-86l12-8Z" fill="#34383C"/>
+  </g>
+  <g filter="url(#floatShadow)" opacity=".15">
+    <rect x="526" y="126" width="153" height="124" rx="15" fill="#52615B"/>
+  </g>
+  <rect x="527" y="115" width="146" height="128" rx="15" fill="#fff"/>
+  <text x="544" y="137" fill="#9DA5A9" font-family="Arial,sans-serif" font-size="6">Storage used</text>
+  <circle cx="600" cy="172" r="26" stroke="#F0F2F4" stroke-width="8"/>
+  <path d="M600 146a26 26 0 0 1 23 14" stroke="#FF7469" stroke-width="8" stroke-linecap="round"/>
+  <path d="M623 160a26 26 0 0 1 1 18" stroke="#FFB647" stroke-width="8" stroke-linecap="round"/>
+  <text x="589" y="171" fill="#343A40" font-family="Arial,sans-serif" font-size="12" font-weight="700">65%</text>
+  <text x="591" y="180" fill="#A2A9AD" font-family="Arial,sans-serif" font-size="5">Used</text>
+  <text x="545" y="215" fill="#A1A8AC" font-family="Arial,sans-serif" font-size="6">256 GB</text>
+  <text x="611" y="215" fill="#A1A8AC" font-family="Arial,sans-serif" font-size="6">Free space</text>
+  <rect x="567" y="220" width="66" height="3" rx="1.5" fill="#EDF0F2"/>
+  <rect x="567" y="220" width="43" height="3" rx="1.5" fill="#FF8A76"/>
+  <g filter="url(#shadow)">
+    <rect x="185" y="189" width="94" height="210" rx="17" fill="url(#phone)"/>
+    <rect x="191" y="200" width="82" height="185" rx="11" fill="#FBFCFD"/>
+    <rect x="217" y="193" width="29" height="4" rx="2" fill="#080A0C"/>
+    <text x="199" y="214" fill="#AAB0B5" font-family="Arial,sans-serif" font-size="5">9:41</text>
+    <circle cx="260" cy="212" r="3" fill="#E7EBED"/>
+    <text x="199" y="232" fill="#30363B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Good morning</text>
+    <text x="199" y="240" fill="#A3AAB0" font-family="Arial,sans-serif" font-size="5">Your overview</text>
+    <rect x="198" y="248" width="68" height="45" rx="6" fill="#fff" stroke="#EDF0F2"/>
+    <text x="204" y="260" fill="#A2AAB0" font-family="Arial,sans-serif" font-size="5">TOTAL BALANCE</text>
+    <text x="204" y="274" fill="#34404A" font-family="Arial,sans-serif" font-size="10" font-weight="700">$82,874.65</text>
+    <path d="M204 285c8-7 11 2 17-2s9-11 15-6 10-4 18-7" stroke="#31D2A8" stroke-width="1.5"/>
+    <rect x="198" y="299" width="32" height="34" rx="5" fill="#EFFBF7"/>
+    <circle cx="207" cy="309" r="4" fill="#38D3A9"/>
+    <text x="203" y="321" fill="#68736F" font-family="Arial,sans-serif" font-size="4">Income</text>
+    <text x="203" y="328" fill="#38433F" font-family="Arial,sans-serif" font-size="6" font-weight="700">$2,840</text>
+    <rect x="236" y="299" width="30" height="34" rx="5" fill="#FFF5ED"/>
+    <circle cx="245" cy="309" r="4" fill="#FFB34E"/>
+    <text x="241" y="321" fill="#68736F" font-family="Arial,sans-serif" font-size="4">Spend</text>
+    <text x="241" y="328" fill="#38433F" font-family="Arial,sans-serif" font-size="6" font-weight="700">$1,240</text>
+    <text x="199" y="344" fill="#343B41" font-family="Arial,sans-serif" font-size="6" font-weight="700">Recent activity</text>
+    <rect x="198" y="350" width="68" height="1" fill="#EDF0F2"/>
+    <circle cx="204" cy="360" r="4" fill="#F1E9FF"/>
+    <rect x="212" y="357" width="30" height="3" rx="1.5" fill="#C8CDD1"/>
+    <rect x="212" y="363" width="18" height="3" rx="1.5" fill="#EAEDF0"/>
+    <text x="247" y="361" fill="#343B41" font-family="Arial,sans-serif" font-size="5">$48.00</text>
+    <circle cx="204" cy="375" r="4" fill="#FFF0E1"/>
+    <rect x="212" y="372" width="30" height="3" rx="1.5" fill="#C8CDD1"/>
+    <rect x="212" y="378" width="18" height="3" rx="1.5" fill="#EAEDF0"/>
+  </g>
+  <circle cx="267" cy="221" r="11" fill="#fff" stroke="#F0F2F4"/>
+  <path d="M267 215v6l4 2" stroke="#FF625E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="277" cy="244" r="10" fill="#fff" stroke="#F0F2F4"/>
+  <path d="M272 245h10M277 240v10" stroke="#38D2A8" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="506" y="270" width="127" height="30" rx="15" fill="#F3E9FF"/>
+  <circle cx="522" cy="285" r="8" fill="#D6B8FF"/>
+  <path d="M519 285h6m-3-3v6" stroke="#8D5FE2" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="535" y="283" fill="#70559D" font-family="Arial,sans-serif" font-size="6" font-weight="700">Web Design</text>
+  <text x="535" y="291" fill="#A99BC0" font-family="Arial,sans-serif" font-size="5">New project</text>
+  <circle cx="306" cy="102" r="3" fill="#fff"/>
+  <circle cx="316" cy="107" r="2" fill="#fff"/>
+  <circle cx="329" cy="98" r="1.5" fill="#fff"/>
+</svg>

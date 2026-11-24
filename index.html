@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Soft Point helps you do more with simple, secure software."
+    />
+    <title>Soft Point — Software for your next step</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navigation page-width" aria-label="Main navigation">
+        <a class="brand" href="#" aria-label="Soft Point home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>SOFT POINT</span>
+        </a>
+        <div class="nav-links" id="primary-links">
+          <a href="#features">Feature</a>
+          <a href="#download">Download</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div class="nav-actions">
+          <a class="login-link" href="#login">Login</a>
+          <a class="button button-red button-small" href="#signup">Sign up</a>
+        </div>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="primary-links"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-width" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <h1 id="hero-title">
+            Develop Your Life<br />With <span>One Step...</span>
+          </h1>
+          <p>
+            Pushing the possibilities of the internet. Good for the last
+            software. Make it a software night.
+          </p>
+          <form class="signup-form" id="signup">
+            <label class="sr-only" for="email">Enter your email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+            <button class="button button-red" type="submit">Send</button>
+          </form>
+          <p class="form-message" aria-live="polite"></p>
+          <div class="app-links">
+            <a
+              href="#download"
+              class="store-link"
+              aria-label="Download on Google Play"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 3.2v17.6L18.6 12 4 3.2Z" fill="#30343b" />
+                <path d="m4 3.2 9.1 11.1 5.5-2.3L4 3.2Z" fill="#36bd78" />
+                <path d="m4 20.8 9.1-11.1 5.5 2.3L4 20.8Z" fill="#f3bf42" />
+              </svg>
+              <span
+                ><small>Available on</small><strong>GOOGLE PLAY</strong></span
+              >
+            </a>
+            <a
+              href="#download"
+              class="store-link apple-link"
+              aria-label="Download on the App Store"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M16.8 12.8c0-2.2 1.8-3.3 1.9-3.4a4.2 4.2 0 0 0-3.3-1.8c-1.4-.2-2.7.8-3.4.8-.7 0-1.8-.8-3-.8a4.5 4.5 0 0 0-3.8 2.3c-1.6 2.7-.4 6.7 1.1 8.9.7 1.1 1.6 2.3 2.8 2.2 1.1 0 1.5-.7 2.9-.7s1.8.7 3 .7c1.2 0 2-1.1 2.7-2.2a10 10 0 0 0 1.2-2.5 3.9 3.9 0 0 1-2.1-3.5ZM14.6 6.2A4 4 0 0 0 15.5 3a4.1 4.1 0 0 0-2.8 1.5 3.8 3.8 0 0 0-.9 3.1 3.4 3.4 0 0 0 2.8-1.4Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                ><small>Available on</small><strong>Apple Store</strong></span
+              >
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img
+            src="images/dashboard.svg"
+            alt="Soft Point dashboard shown on a laptop and phone"
+            width="720"
+            height="480"
+          />
+        </div>
+      </section>
+
+      <section class="partners" aria-label="Trusted companies">
+        <div class="partner-list page-width">
+          <span class="partner-google">Google</span>
+          <span class="partner-avast"><b aria-hidden="true">✿</b> avast</span>
+          <span class="partner-ebay"><i>e</i><i>b</i><i>a</i><i>y</i></span>
+          <span class="partner-paypal">PayPal<sup>™</sup></span>
+          <span class="partner-hubspot">HubSp<span>o</span>t</span>
+        </div>
+      </section>
+
+      <section
+        class="features page-width"
+        id="features"
+        aria-labelledby="features-title"
+      >
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon icon-coral" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="m19.4 13.5 1.3 1-1.8 3.1-1.6-.6a7.8 7.8 0 0 1-1.6.9l-.3 1.7h-3.6l-.3-1.7a7.8 7.8 0 0 1-1.6-.9l-1.6.6-1.8-3.1 1.3-1a7 7 0 0 1 0-1.9l-1.3-1 1.8-3.1 1.6.6a7.8 7.8 0 0 1 1.6-.9l.3-1.7h3.6l.3 1.7a7.8 7.8 0 0 1 1.6.9l1.6-.6 1.8 3.1-1.3 1a7 7 0 0 1 0 1.9ZM13.6 15a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <h3>Easy Settings</h3>
+            <p>
+              A complete about-face in core economic amsterdam bilamco
+              progressive.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon icon-mint" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 12a4.2 4.2 0 1 0 0-8.4 4.2 4.2 0 0 0 0 8.4Zm0 2c-4 0-7.2 2-7.2 4.5v1.9h14.4v-1.9c0-2.5-3.2-4.5-7.2-4.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <h3>User Friendly</h3>
+            <p>
+              A complete about-face in core economic amsterdam bilamco
+              progressive.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon icon-yellow" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 3 4.8 6v5.1c0 4.5 3.1 8.6 7.2 9.9 4.1-1.3 7.2-5.4 7.2-9.9V6L12 3Zm0 3.2 4.3 1.8v3.1c0 3-1.8 5.8-4.3 6.9-2.5-1.1-4.3-3.9-4.3-6.9V8L12 6.2Zm-.8 8.7 4.1-4.1-1.4-1.4-2.7 2.7-1.1-1.1-1.4 1.4 2.5 2.5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <h3>Full secured</h3>
+            <p>
+              A complete about-face in core economic amsterdam bilamco
+              progressive.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon icon-pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="m8.2 7-5 5 5 5 1.5-1.5L6.2 12l3.5-3.5L8.2 7Zm7.6 0-1.5 1.5 3.5 3.5-3.5 3.5 1.5 1.5 5-5-5-5ZM13 5l-3 14h2l3-14h-2Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <h3>Clean Code</h3>
+            <p>
+              A complete about-face in core economic amsterdam bilamco
+              progressive.
+            </p>
+          </article>
+        </div>
+        <div class="feature-copy">
+          <p class="eyebrow">Make smarter connections</p>
+          <h2 id="features-title">
+            A complete software<br />solution for you.
+          </h2>
+          <p>
+            The source of powerful world and making future sure. It's a straight
+            forward software.
+          </p>
+          <p>
+            Where possibilities are made possible. We must have expand
+            possibilities of better tomorrow. The directly secure of your
+            network delivering services.
+          </p>
+          <div class="feature-actions">
+            <a href="#signup" class="button button-dark">Learn more</a>
+            <a href="mailto:hello@softpoint.example" class="ask-link">Ask?</a>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="story-section page-width growth-section"
+        aria-labelledby="growth-title"
+      >
+        <div class="story-copy">
+          <h2 id="growth-title">Discover &amp; growth<br />with analysis.</h2>
+          <p>
+            Software with new dimensions. The better future and information
+            about the virtual world.
+          </p>
+          <ul class="benefit-list">
+            <li>Software with new dimensions the better.</li>
+            <li>Effortlessly manages all your information.</li>
+            <li>Simple Solutions for Complex Connections.</li>
+            <li>Complete business solutions for customers.</li>
+          </ul>
+        </div>
+        <div class="story-art">
+          <img
+            src="images/analysis-dashboard.svg"
+            alt="Analytics dashboard with charts and account overview"
+            width="640"
+            height="420"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section
+        class="story-section page-width security-section"
+        aria-labelledby="security-title"
+      >
+        <div class="story-art">
+          <img
+            src="images/security-dashboard.svg"
+            alt="Security and audience analytics shown in dashboard cards"
+            width="640"
+            height="420"
+            loading="lazy"
+          />
+        </div>
+        <div class="story-copy">
+          <h2 id="security-title">Serving information<br />with security.</h2>
+          <p>
+            The source of powerful world and making future sure. It's a straight
+            forward software. Paired with dynamic image of the actual tool for
+            you.
+          </p>
+          <p>
+            Where possibilities are made possible. We must have expand
+            Possibilities of better tomorrow. The directly secure of your
+            network delivering services.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="download-cta"
+        id="download"
+        aria-labelledby="download-title"
+      >
+        <div class="download-inner page-width">
+          <div class="download-copy">
+            <h2 id="download-title">Get our software</h2>
+            <p>
+              The source of powerful world and making your future sure. It's a
+              straight forward software for you.
+            </p>
+            <p>
+              The source of powerful world and making future sure. It's a
+              straight forward software. Paired with dynamic image of the actual
+              tool and the performance.
+            </p>
+            <a class="button button-red" href="#signup">Download now</a>
+          </div>
+          <img
+            class="laptop-art"
+            src="images/1458 copy 1.png"
+            alt="Soft Point software dashboard on a laptop"
+            width="640"
+            height="440"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="pricing-section" id="pricing" aria-labelledby="pricing-title">
+        <div class="pricing-inner">
+          <header class="pricing-heading">
+            <h2 id="pricing-title">Best Pricing Plan</h2>
+            <p>
+              Empowering the Internet Generation. Driving the Communication
+              Revolution.<br />
+              Technology at the speed of life. Empowered by Innovation.
+            </p>
+            <div class="billing-choice">
+              <span>Monthly</span>
+              <button
+                class="billing-switch"
+                type="button"
+                role="switch"
+                aria-checked="true"
+                aria-label="Quarterly billing"
+              >
+                <span></span>
+              </button>
+              <span>Quarterly</span>
+            </div>
+            <p class="savings-note">
+              Save up to 40%
+              <svg viewBox="0 0 28 20" aria-hidden="true">
+                <path d="M2 17C12 18 18 14 21 5M15 5l6-3 4 5" />
+              </svg>
+            </p>
+            <div class="price-range">
+              <output class="range-value" for="price-range">$130</output>
+              <input
+                id="price-range"
+                type="range"
+                min="0"
+                max="260"
+                value="130"
+                aria-label="Select your preferred price"
+              />
+            </div>
+          </header>
+
+          <div class="plan-grid">
+            <article class="plan-card">
+              <header class="plan-header">
+                <h3>Basic Plan</h3>
+                <p class="plan-price" data-monthly="0" data-quarterly="0">$0</p>
+              </header>
+              <ul class="plan-features">
+                <li><span>Limited Access Library</span><span class="plan-answer">Yes</span></li>
+                <li class="feature-disabled"><span>100+ HTML UI Elements</span><span class="plan-answer">No</span></li>
+                <li class="feature-disabled"><span>Hotline Support 24/7</span><span class="plan-answer">No</span></li>
+                <li class="feature-disabled"><span>API &amp; extension support</span><span class="plan-answer">No</span></li>
+              </ul>
+              <div class="plan-action">
+                <a class="plan-button" href="#signup">Buy Plan</a>
+              </div>
+            </article>
+
+            <article class="plan-card plan-card-featured">
+              <header class="plan-header">
+                <h3>Premium Plan</h3>
+                <p class="plan-price" data-monthly="220" data-quarterly="130">$130</p>
+              </header>
+              <ul class="plan-features">
+                <li><span>Limited Access Library</span><span class="plan-answer">Yes</span></li>
+                <li><span>100+ HTML UI Elements</span><span class="plan-answer">Yes</span></li>
+                <li class="feature-disabled"><span>Hotline Support 24/7</span><span class="plan-answer">No</span></li>
+                <li class="feature-disabled"><span>API &amp; extension support</span><span class="plan-answer">No</span></li>
+              </ul>
+              <div class="plan-action">
+                <a class="plan-button" href="#signup">Buy Plan</a>
+              </div>
+            </article>
+
+            <article class="plan-card">
+              <header class="plan-header">
+                <h3>Ultimate Plan</h3>
+                <p class="plan-price" data-monthly="350" data-quarterly="210">$210</p>
+              </header>
+              <ul class="plan-features">
+                <li><span>Limited Access Library</span><span class="plan-answer">Yes</span></li>
+                <li><span>100+ HTML UI Elements</span><span class="plan-answer">Yes</span></li>
+                <li><span>Hotline Support 24/7</span><span class="plan-answer">Yes</span></li>
+                <li><span>API &amp; extension support</span><span class="plan-answer">Yes</span></li>
+              </ul>
+              <div class="plan-action">
+                <a class="plan-button" href="#signup">Buy Plan</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner page-width">
+        <div class="footer-brand">
+          <a class="brand" href="#" aria-label="Soft Point home">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span>SOFT POINT</span>
+          </a>
+          <p>Software with new look. Live the life that you expect.</p>
+        </div>
+        <div class="footer-column">
+          <h2>Useful link</h2>
+          <a href="#features">Behance</a>
+          <a href="#features">Dribbble</a>
+        </div>
+        <div class="footer-column">
+          <h2>Support</h2>
+          <a href="#pricing">Conditions</a>
+          <a href="#pricing">Privacy and policy</a>
+        </div>
+        <div class="footer-column">
+          <h2>Contact us</h2>
+          <a href="tel:+17732178810">(773) 217-8810</a>
+          <p>Downers Grove, IL 60515</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

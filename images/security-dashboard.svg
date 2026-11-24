@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <filter id="shadow" x="10" y="27" width="610" height="365" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <linearGradient id="mintArea" x1="186" y1="241" x2="186" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADDB8" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#4ADDB8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="orangeArea" x1="282" y1="179" x2="282" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB96B" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#FFB96B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="510" cy="74" r="48" fill="#FFD66F" opacity=".8"/>
+  <circle cx="535" cy="45" r="2" fill="#fff"/>
+  <circle cx="493" cy="50" r="1.5" fill="#fff"/>
+  <rect x="52" y="68" width="470" height="290" rx="14" fill="#77827D" opacity=".12" filter="url(#shadow)"/>
+  <rect x="70" y="59" width="463" height="274" rx="11" fill="#fff"/>
+  <rect x="70" y="59" width="463" height="26" rx="11" fill="#FAFBFC"/>
+  <path d="M70 75h463" stroke="#EFF1F2"/>
+  <circle cx="84" cy="71" r="3" fill="#E5E9EB"/>
+  <circle cx="94" cy="71" r="3" fill="#E5E9EB"/>
+  <text x="111" y="74" fill="#55615C" font-family="Arial,sans-serif" font-size="6" font-weight="700">Audience insights</text>
+  <text x="104" y="101" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Overview</text>
+  <text x="105" y="113" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">Audience growth</text>
+  <rect x="103" y="120" width="91" height="45" rx="5" fill="#fff" stroke="#EFF1F2"/>
+  <text x="111" y="132" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">TOTAL VISITORS</text>
+  <text x="111" y="149" fill="#35403B" font-family="Arial,sans-serif" font-size="12" font-weight="700">24,863</text>
+  <path d="m163 147 5-4 5 2 5-8 8 3" stroke="#3DD5AD" stroke-width="1.4"/>
+  <rect x="203" y="120" width="91" height="45" rx="5" fill="#fff" stroke="#EFF1F2"/>
+  <text x="211" y="132" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">NEW USERS</text>
+  <text x="211" y="149" fill="#35403B" font-family="Arial,sans-serif" font-size="12" font-weight="700">5,492</text>
+  <path d="m263 147 5-6 5 4 5-4 8 1" stroke="#FFB65A" stroke-width="1.4"/>
+  <rect x="304" y="120" width="91" height="45" rx="5" fill="#fff" stroke="#EFF1F2"/>
+  <text x="312" y="132" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">ACTIVE USERS</text>
+  <text x="312" y="149" fill="#35403B" font-family="Arial,sans-serif" font-size="12" font-weight="700">86.4%</text>
+  <path d="m363 147 5-3 5 2 5-8 8 4" stroke="#9D75E9" stroke-width="1.4"/>
+  <rect x="103" y="176" width="292" height="139" rx="6" fill="#fff" stroke="#EFF1F2"/>
+  <text x="114" y="190" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Audience reach</text>
+  <text x="114" y="199" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">Weekly audience performance</text>
+  <path d="M118 289H381M118 265H381M118 241H381M118 217H381" stroke="#F0F2F3"/>
+  <path d="M120 275c16-15 24-12 39 1s20-35 36-25 16 24 31 16 18-30 34-22 14 30 32 21 16-23 31-15 19 24 36 8 20-26 39-12v42H120v-14Z" fill="url(#mintArea)"/>
+  <path d="M120 275c16-15 24-12 39 1s20-35 36-25 16 24 31 16 18-30 34-22 14 30 32 21 16-23 31-15 19 24 36 8 20-26 39-12" stroke="#42D9B4" stroke-width="1.8"/>
+  <text x="120" y="302" fill="#ADB4B7" font-family="Arial,sans-serif" font-size="5">01</text>
+  <text x="175" y="302" fill="#ADB4B7" font-family="Arial,sans-serif" font-size="5">05</text>
+  <text x="230" y="302" fill="#ADB4B7" font-family="Arial,sans-serif" font-size="5">10</text>
+  <text x="285" y="302" fill="#ADB4B7" font-family="Arial,sans-serif" font-size="5">15</text>
+  <text x="350" y="302" fill="#ADB4B7" font-family="Arial,sans-serif" font-size="5">20</text>
+  <rect x="407" y="98" width="112" height="129" rx="7" fill="#fff" stroke="#EFF1F2"/>
+  <text x="418" y="112" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Traffic source</text>
+  <circle cx="454" cy="151" r="23" stroke="#F1F3F4" stroke-width="8"/>
+  <path d="M454 128a23 23 0 0 1 21 14" stroke="#FF776C" stroke-width="8" stroke-linecap="round"/>
+  <path d="M475 142a23 23 0 0 1-3 21" stroke="#FFBD4F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M472 163a23 23 0 0 1-25 10" stroke="#39D4AD" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="425" cy="190" r="3" fill="#FF776C"/>
+  <text x="432" y="192" fill="#7E8884" font-family="Arial,sans-serif" font-size="5">Direct</text>
+  <circle cx="471" cy="190" r="3" fill="#FFBD4F"/>
+  <text x="478" y="192" fill="#7E8884" font-family="Arial,sans-serif" font-size="5">Social</text>
+  <rect x="407" y="237" width="112" height="78" rx="7" fill="#fff" stroke="#EFF1F2"/>
+  <text x="418" y="251" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Safety status</text>
+  <circle cx="428" cy="271" r="6" fill="#E8FAF4"/>
+  <path d="m425 271 2 2 4-5" stroke="#34CEA6" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="440" y="273" fill="#65706B" font-family="Arial,sans-serif" font-size="6">Data protected</text>
+  <rect x="440" y="279" width="61" height="3" rx="1.5" fill="#EDF1EF"/>
+  <rect x="440" y="279" width="52" height="3" rx="1.5" fill="#39D4AD"/>
+  <rect x="23" y="45" width="115" height="104" rx="9" fill="#fff" filter="url(#shadow)"/>
+  <text x="36" y="61" fill="#707A76" font-family="Arial,sans-serif" font-size="6" font-weight="700">Sessions Overview</text>
+  <path d="M39 130V86M54 130V78M69 130V100M84 130V70M99 130V91M114 130V66" stroke="#FF916B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M39 133h79" stroke="#EFF1F2"/>
+  <rect x="38" y="84" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="53" y="76" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="68" y="98" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="83" y="68" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="98" y="89" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="113" y="64" width="5" height="3" rx="1.5" fill="#49D8B1"/>
+  <rect x="25" y="325" width="205" height="76" rx="9" fill="#fff" filter="url(#shadow)"/>
+  <text x="39" y="342" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Gender / Age</text>
+  <path d="M42 380h172M42 366h172M42 352h172" stroke="#F0F2F3"/>
+  <path d="M45 380c13-2 12-29 26-28 11 0 12 27 24 24s12-20 24-18 13 16 25 15 13-27 25-25 13 20 24 18 13-11 21-10" stroke="#42D9B4" stroke-width="1.6"/>
+  <path d="M45 380c13-2 12-29 26-28 11 0 12 27 24 24s12-20 24-18 13 16 25 15 13-27 25-25 13 20 24 18 13-11 21-10v14H45v-14Z" fill="url(#mintArea)"/>
+  <rect x="273" y="248" width="113" height="114" rx="8" fill="#fff" filter="url(#shadow)"/>
+  <text x="286" y="264" fill="#35403B" font-family="Arial,sans-serif" font-size="7" font-weight="700">Geo</text>
+  <text x="346" y="264" fill="#A4ACAF" font-family="Arial,sans-serif" font-size="5">Country</text>
+  <text x="286" y="281" fill="#8C9691" font-family="Arial,sans-serif" font-size="5">United States</text>
+  <rect x="286" y="286" width="46" height="3" rx="1.5" fill="#FFE9E6"/>
+  <rect x="286" y="286" width="33" height="3" rx="1.5" fill="#FF776C"/>
+  <text x="286" y="304" fill="#8C9691" font-family="Arial,sans-serif" font-size="5">United Kingdom</text>
+  <rect x="286" y="309" width="46" height="3" rx="1.5" fill="#E7F8F3"/>
+  <rect x="286" y="309" width="28" height="3" rx="1.5" fill="#39D4AD"/>
+  <text x="286" y="327" fill="#8C9691" font-family="Arial,sans-serif" font-size="5">Germany</text>
+  <rect x="286" y="332" width="46" height="3" rx="1.5" fill="#FFF2DC"/>
+  <rect x="286" y="332" width="21" height="3" rx="1.5" fill="#FFBD4F"/>
+  <text x="342" y="281" fill="#69736F" font-family="Arial,sans-serif" font-size="5">24.8k</text>
+  <text x="342" y="304" fill="#69736F" font-family="Arial,sans-serif" font-size="5">12.4k</text>
+  <text x="342" y="327" fill="#69736F" font-family="Arial,sans-serif" font-size="5">8.6k</text>
+</svg>
